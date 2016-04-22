@@ -1,0 +1,12 @@
+{
+  "name": "Piedmont Park", 
+  "description": "Atlanta's most well-known park, Piedmont offers 189 acres of land including a dog park, sports amenities, a lake, pool and plenty of space for a picnic or 2. Due to the large number of visitors Piedmost receives , hammocks are not welcome.", 
+  "parking" : "Piedmont has a paid parking deck accessible from Evelyn St off of Monroe Dr. Street parking is available but limited on 10th street.",
+  "moreInfo" : "http://www.piedmontpark.org/",
+  "tags": [
+      "dogs",
+      "trails",
+      "sports",
+      "pool"
+  ]
+}

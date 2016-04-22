@@ -1,0 +1,14 @@
+{
+  "name": "Lullwater Creek Park", 
+  "description": "Lullwater Park is a large park located on Emory University’s campus. It has a number of paved and dirt paths as well as a large lake. The Lullwater House is located in the park. It serves at home of the university president. Be sure to check out the old mill tower at the northern corner of Candler Lake across the creek.", 
+  "parking" : "Paid parking is available on Emory’s campus. Look for visitor’s parking decks.",
+  "hours": "Dawn to Dusk",
+  "location": "https://www.google.com/maps/place/Lullwater+Preserve/@33.7976982,-84.319166,797m",
+  "moreInfo": "",
+  "tags": [
+    "trails",
+    "fishing",
+    "ruins",
+    "water"
+  ]
+}

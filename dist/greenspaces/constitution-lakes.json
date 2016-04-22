@@ -1,0 +1,12 @@
+{
+  "name": "Constitution Lakes Park", 
+  "description": "Constitution Lakes is a 125 acre wetlands nature preserve and wildlife refuge. It is located in south east Atlanta off Moreland Ave. The lakes were formed after the South River flooded excavation pits of an old brickyark. The park features walking paths, boardwalks, and trails. Doll's Head Trail is located within the park. It features an assortment of repurposed art installations many of which include doll heads and kid toys. Fishing is allowed in the lake.", 
+  "parking" : "Constitution Lakes has a free parking lot at the trailhead.",
+  "hours": "8am - 8pm",
+  "location": "https://www.google.com/maps/place/Constitution+Lakes/@33.6818243,-84.3451195,15.95z",
+  "moreInfo": "https://www.facebook.com/constitutionlakes/",
+  "tags": [
+    "water",
+    "trails"
+  ]
+}

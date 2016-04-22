@@ -1,0 +1,11 @@
+{
+  "name": "Cheshire Farm Trail", 
+  "description": "Cheshire Farm Trail is a short trail part of the South Fork Creek Conservancy. It sits between North Fork Peachtree Creek and I -85. Future connectors the Atlanta Beltline have been proposed.", 
+  "parking" : "Street parking in the adjacent Lindridge-Martin Manor neighborhood",
+  "location": "https://www.google.com/maps/place/N+Fork+Creekside+Trail,+Atlanta,+GA+30324/@33.8212973,-84.3594302,17.2z",
+  "moreInfo": "http://southforkconservancy.org/cheshire-farm-trail/",
+  "tags": [
+    "water",
+    "trails"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Sweetwater Creek State Park", 
+  "description": "Sweetwater Creek State Park is a 2,549 acre state park just west of the city past six flags. It has about 12 miles of trails. Sweetwater creek cuts through the park. The George H Sparks Reservoir provides still waters for fishing, boating, and other water activities. Camping and cabins can be reserved.", 
+  "parking" : "Parking is $5 or free with a Georgia State Park pass.",
+  "hours": "7am - Dark",
+  "location": "https://www.google.com/maps/place/Sweetwater+Creek+State+Park/@33.751172,-84.643225,13.7z",
+  "moreInfo": "http://gastateparks.org/SweetwaterCreek",
+  "tags": [
+    "camping",
+    "trails",
+    "water"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Arabia Mountain", 
+  "description": "Arabia Mountain is a granite outcrop about 15 minutes from the perimeter down I-20 East. . It is nowhere as big but is far less crowded giving it a much more intimate and expansive feel. Foottrails snake throughout the park which sits on both sides of Klondike Rd. The park also contains paved bike trails that continue all the way to Stonecrest Mall.", 
+  "parking" : "Free parking is available at the trailhead.",
+  "hours": "7am - Dark",
+  "location": "https://www.google.com/maps/place/Davidson-Arabia+Mountain+Nature+Preserve/@33.6640251,-84.1340617,14.17z",
+  "moreInfo": "http://arabiaalliance.org/",
+  "tags": [
+    "biking",
+    "trails"
+  ],
+  "images": [
+    "arabia1",
+    "arabia2",
+    "arabia3"
+  ]
+}

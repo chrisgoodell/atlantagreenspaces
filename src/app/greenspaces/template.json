@@ -1,0 +1,11 @@
+{
+  "name": "", 
+  "description": "", 
+  "parking" : "",
+  "hours": "",
+  "location": "",
+  "moreInfo": "",
+  "tags": [
+    "test"
+  ]
+}

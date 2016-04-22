@@ -1,0 +1,17 @@
+{
+  "name": "Historic Fourth Ward Park", 
+  "description": "Old Fourth Ward park is a 17 acre park in Old Fourth Ward. It features a large pond, walking paths, amphitheatre, playground and splash pad. The park has restrooms.", 
+  "parking" : "There is limited free parking available on Garden Park Dr, Dallas St NE, and N. Angier Ave NE.",
+  "hours": "6am - 11pm",
+  "location": "https://www.google.com/maps/place/Historic+Fourth+Ward+Park/@33.7681821,-84.3645818,16.73z/",
+  "moreInfo": "http://www.h4wpc.com/",
+  "tags": [
+    "playground",
+    "splashpad"
+  ],
+  "images": [
+    "fourth-ward1",
+    "fourth-ward2",
+    "fourth-ward3"
+  ]
+}

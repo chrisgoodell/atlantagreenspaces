@@ -1,0 +1,16 @@
+{
+  "name": "Renaissance Park", 
+  "description": "Rennaisance Park is a 5.4 acre park located in Old Fourth Ward off Piedmont Avenue. It is a few blocks north of the Civic center. The park contains a gated off-leash dog park up on the highest section of the park. Patrons of the Peachtree Pine homeless shelter frequent the area.", 
+  "parking" : "Street Parking is available alongside the park on Linden Ave and Pine St.",
+  "hours": "6am - 11pm",
+  "location": "https://www.google.com/maps/@33.7680945,-84.3805832,18z",
+  "moreInfo": "http://www.centralparkatlanta.org/",
+  "tags": [
+    "dogs"
+  ],
+  "images": [
+    "renaissance1",
+    "renaissance2",
+    "renaissance3"
+  ]
+}

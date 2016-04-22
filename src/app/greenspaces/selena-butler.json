@@ -1,0 +1,18 @@
+{
+  "name": "Selena S. Butler Park", 
+  "description": "Selena S. Butler Park is a 4 acre park in Old Fourth Ward that was renovated in 2011. It has 2 tennis courts, a basketball court, a playground, a multi-purpose field and a picnic/grill area.", 
+  "parking" : "There is a small parking lot at the center of the park next to the recreation center. There is also street parking along William Holmes Borders Senior Dr.",
+  "hours": "7am - 11pm",
+  "location": "https://www.google.com/maps/place/Selena+S.+Butler+Park/@33.7528323,-84.3765434,18.57z",
+  "moreInfo": "",
+  "tags": [
+    "basketball",
+    "grills",
+    "playground",
+    "tennis"
+  ],
+  "images": [
+    "selena-butler1",
+    "selena-butler2"
+  ]
+}

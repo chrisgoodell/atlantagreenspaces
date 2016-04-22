@@ -1,0 +1,15 @@
+{
+  "name": "Orme Park", 
+  "description": "Orme Park is a small neighborhood park in the Virginia Highlands. It has walking paths that extend along a small creek and a playground at the western end.", 
+  "parking" : "Street parking is available on Brookridge Dr.",
+  "hours": "6am - 11pm",
+  "location": "https://www.google.com/maps/place/Orme+Park/@33.7858667,-84.3617744,17.06z",
+  "moreInfo": "http://vahi.org/parks/orme/",
+  "tags": [
+    "playground"
+  ],
+  "images": [
+    "orme2",
+    "orme3"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Centennial Olympic Park", 
+  "description": "Centennial Olympic park is a 21 acre park located in downtown Atlanta. It was built for the 1996 Olympics. The park is a popular spot for a number of festivals and concerts. It is surrounded on all sides by a number of Atlanta attractions including the CNN Center & Phillips Arena, the Georgia Aquarium, The National Center for Civil and Human Rights, The World of Coca Cola, and Skyview Atlanta (Ferris Wheel).", 
+  "parking" : "Paid parking available in a number of lots and decks around the park. Expect to pay at least $10 or more when there is an event going on in the park or at Philips arena.",
+  "hours": "7am - 11pm",
+  "location": "https://www.google.com/maps/place/Centennial+Olympic+Park/@33.7600831,-84.3932036,16.96z",
+  "moreInfo": "http://www.centennialpark.com/",
+  "tags": [
+    "playground",
+    "splashpad"
+  ]
+}

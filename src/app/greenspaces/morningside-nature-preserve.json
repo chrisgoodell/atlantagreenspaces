@@ -1,0 +1,12 @@
+{
+  "name": "Morningside Nature Preserve", 
+  "description": "Morningside Nature Preserve consists of 30 acres of protected forest north east of Piedmont Park. The preserve features a large wooden footbridge that crosses South Fork Peachtree Creek. The nature preserve contains a dense network trails and shaded boardwalks. Morningside can be accessed from a trailhead off Lenox Road or two other entrances off Wellbourne Dr and Wildwood Rd.", 
+  "parking" : "Morningside Nature Preserve has a free parking lot at the trailhead off Lenox Road.",
+  "hours": "6am - 11pm",
+  "address": "2020 Lenox Rd NE, Atlanta, GA 30306 (Parking)",
+  "location": "https://www.google.com/maps/@33.8067992,-84.3569026,16.59z",
+  "tags": [
+    "trails",
+    "water"
+  ]
+}

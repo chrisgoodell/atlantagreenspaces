@@ -1,0 +1,12 @@
+{
+  "name": "Parkway-Angier Park", 
+  "description": "Parkway-Angier Park is a small park in the Old 4th Ward. It has a small grassy area, a gazebo, and 2 stone tables.", 
+  "parking" : "There is street parking on both Angier Ave and Parkway Dr.",
+  "hours": "6am - 11pm",
+  "location": "https://www.google.com/maps/place/Parkway-Angier+Park,+Atlanta,+GA+30308/@33.7667043,-84.3753037,17z",
+  "moreInfo": "",
+  "tags": [],
+  "images": [
+    "parkway-angier1"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Cascade Springs Nature Preserve", 
+  "description": "Cascade Springs Nature Preserve is a 120 acre nature preserve in south west Atlanta. It includes a network of hiking trails, a waterfall, and ruins. South Utoy Creek bisects the park.", 
+  "parking" : "Free parking at park entrance",
+  "hours": "Summer: Mon-Fri 7:30a – 3:00p, Sat-Sun 7:30a – 7:30p. Winter: Mon-Fri 7:30a – 3:00p, Sat-Sun 7:30a – 6:00p",
+  "location": "https://www.google.com/maps/place/Cascade+Springs+Nature+Preserve/@33.7165392,-84.4815743,15.63z",
+  "tags": [
+    "trails"
+  ]
+}
