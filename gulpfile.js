@@ -25,4 +25,7 @@ gulp.task('deploy', function() {
 
   gulp.src('src/app/partials/*')
     .pipe(gulp.dest('dist/partials'));
+
+  gulp.src('src/app/*')
+    .pipe(gulp.dest('dist/'));
 });
