@@ -7,12 +7,7 @@ var clean = require('gulp-clean');
 gulp.task('deploy', function() {
   //gulp.src('dist', {read: false}).pipe(clean());
 
-  gulp.src('src/app/index.html')
-    .pipe(usemin({ 
-        css: [minifyCss(), 'concat'],
-        js: [uglify({mangle:false}), 'concat']
-    }))
-      .pipe(gulp.dest('dist/'));
+  
 
   gulp.src('src/app/images/**/*')
     .pipe(gulp.dest('dist/images'));
@@ -26,6 +21,13 @@ gulp.task('deploy', function() {
   gulp.src('src/app/partials/*')
     .pipe(gulp.dest('dist/partials'));
 
-  gulp.src('src/app/*')
+  gulp.src(['src/app/*',
+            '!src/app/index.html'])
     .pipe(gulp.dest('dist/'));
+
+  gulp.src('src/app/index.html')
+    .pipe(usemin({ 
+        js: [uglify({mangle:false}), 'concat']
+    }))
+      .pipe(gulp.dest('dist/'));
 });
