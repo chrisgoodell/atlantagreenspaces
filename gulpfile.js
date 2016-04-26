@@ -9,23 +9,23 @@ gulp.task('deploy', function() {
 
   
 
-  gulp.src('src/app/images/**/*')
+  gulp.src('src/images/**/*')
     .pipe(gulp.dest('dist/images'));
 
-  gulp.src('src/app/css/*')
+  gulp.src('src/css/*')
     .pipe(gulp.dest('dist/css'));
 
-  gulp.src('src/app/greenspaces/*')
+  gulp.src('src/greenspaces/*')
     .pipe(gulp.dest('dist/greenspaces'));
 
-  gulp.src('src/app/partials/*')
+  gulp.src('src/partials/*')
     .pipe(gulp.dest('dist/partials'));
 
-  gulp.src(['src/app/*',
-            '!src/app/index.html'])
+  gulp.src(['src/*',
+            '!src/index.html'])
     .pipe(gulp.dest('dist/'));
 
-  gulp.src('src/app/index.html')
+  gulp.src('src/index.html')
     .pipe(usemin({ 
         js: [uglify({mangle:false}), 'concat']
     }))
