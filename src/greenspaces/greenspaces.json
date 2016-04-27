@@ -318,5 +318,16 @@
             "trails",
             "playground"
         ]
+    },
+    {
+        "id": "zonolite", 
+        "name": "Zonolite Park", 
+        "snippet": "A 13 acre park near Emory that has a grassy meadow and trails along South Fork Peachtree Creek.",
+        "lat":"33.8058078",
+        "long":"-84.3459899",
+        "distance":"",
+        "tags": [
+            "trails"
+        ]
     }
 ]

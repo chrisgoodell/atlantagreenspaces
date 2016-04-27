@@ -1,0 +1,14 @@
+{
+  "name": "Zonolite Park", 
+  "description": "<p>Zonolite Park is a 13 acre park that sits along South Fork Peachtree Creek new Emory. The park is named after an attic insulation that was used in millions of houses in the mid to late 20th century. The product contained harmful asbestos fibers and was dumped en masse at the location. In 2010 the local community along with South Fork Conservancy asked the EPA to force the polluters to clean the area. They were successful in their efforts and now the park is flourishing.</p> <p>The park has a community garden at the trailhead followed by a grassy meadow with around 6 picnic tables. A small network of trails extend into the forest north of meadow along the creek. Proposed trails extending along the creek will connect Zonolite with <a href=\"morningside-nature-preserve\">Morningside Nature Preserve</a> in the north and Herbert Taylor Park in the south.</p>", 
+  "parking" : "There is a small parking lot at the entrance to the park on Zonolite Place.",
+  "hours": "6am - 11pm",
+  "location": "https://www.google.com/maps/place/Zonolite+Park/@33.8058078,-84.3459899,17.25z",
+  "moreInfo": "http://southforkconservancy.org/zonolite/",
+  "tags": [
+    "trails"
+  ],
+  "images": [
+    "zonolite1"
+  ]
+}
