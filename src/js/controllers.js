@@ -272,6 +272,8 @@ greenspaceControllers.controller('GreenspaceDetailCtrl', ['$scope', '$stateParam
     $http.get('greenspaces/' + $stateParams.id + '.json').success(function(data) {
       $scope.greenspace = data;
     });
+
+    
   }]);
 
 
