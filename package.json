@@ -9,6 +9,7 @@
     "gulp": "^3.9.1",
     "gulp-clean": "^0.3.2",
     "gulp-minify-css": "^1.2.4",
+    "gulp-replace": "^0.5.4",
     "gulp-uglify": "^1.5.3",
     "gulp-usemin": "^0.3.22",
     "http-server": "^0.6.1",

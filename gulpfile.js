@@ -3,6 +3,7 @@ var uglify = require('gulp-uglify');
 var usemin = require('gulp-usemin');
 var minifyCss = require('gulp-minify-css');
 var clean = require('gulp-clean');
+var replace = require('gulp-replace');
 
 gulp.task('deploy', function() {
   //gulp.src('dist', {read: false}).pipe(clean());
@@ -26,6 +27,7 @@ gulp.task('deploy', function() {
     .pipe(gulp.dest('dist/'));
 
   gulp.src('src/index.html')
+    .pipe(replace('<base href="/src/">','<base href="/">'))
     .pipe(usemin({ 
         js: [uglify({mangle:false}), 'concat']
     }))
