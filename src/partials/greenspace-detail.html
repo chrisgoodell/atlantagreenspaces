@@ -7,7 +7,7 @@
         <ul class="tags clearfix">
           <li ng-show="greenspace.tags" ng-repeat="tag in greenspace.tags">#{{tag}}</li>
         </ul>
-        <p>{{greenspace.description}}</p>
+        <p ng-bind-html="greenspace.description | sanitize"></p>
         <div ng-show="greenspace.hours">
           <h2>Hours</h2>
           <p>{{greenspace.hours}}</p>
