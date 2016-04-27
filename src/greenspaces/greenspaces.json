@@ -340,5 +340,17 @@
         "tags": [
             "tennis"
         ]
+    },
+    {
+        "id": "herbert-taylor", 
+        "name": "Herbert Taylor Park", 
+        "snippet": "A 26 acre park just west of Emory that has a network trails around where South Fork Peachtree Creek and Rock Creek meet.",
+        "lat":"33.8005176",
+        "long":"-84.3429239",
+        "distance":"",
+        "tags": [
+            "trails",
+            "water"
+        ]
     }
 ]

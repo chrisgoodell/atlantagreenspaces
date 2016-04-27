@@ -1,0 +1,15 @@
+{
+  "name": "Herbert Taylor Park", 
+  "description": "Herbert Taylor Park is a 26 acre park just west of the CDC. The land was donated to the city for recreational purposes in the 1970s by Herbert Taylor. The park contains a network of trails that connect to Daniel Johnson Nature Preserve at its southernmost end. Peachtree Creek passes through the park at the opposite end. The entrance to the park is on Beech Valley Rd where it meets Pasadena Ave.", 
+  "parking" : "There is street parking on Beech Valley Rd NE.",
+  "hours": "6am - 11pm",
+  "location": "https://www.google.com/maps/place/Herbert+Taylor+Park/@33.8005176,-84.3429239,17z",
+  "moreInfo": "",
+  "tags": [
+    "trails",
+    "water"
+  ],
+  "images": [
+    "herbert-taylor1"
+  ]
+}
