@@ -8,7 +8,7 @@ var greenspaceApp = angular.module('greenspaceApp', [
 ]);
 
 
-greenspaceApp.config(function($stateProvider, $urlRouterProvider) {
+greenspaceApp.config(function($stateProvider, $urlRouterProvider, $locationProvider) {
     
     $urlRouterProvider.otherwise('/');
     
@@ -75,6 +75,8 @@ greenspaceApp.config(function($stateProvider, $urlRouterProvider) {
               }
             }
         });
+
+         $locationProvider.html5Mode(true);
 
         
 });
