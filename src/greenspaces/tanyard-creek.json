@@ -1,0 +1,17 @@
+{
+  "name": "Tanyard Creek Park", 
+  "description": "Tanyard Creek Park is a part of a group of parks that sit on the North Beltline trail. The park has a large open greenspace perfect for dogs and picnics as well as a playground on the west side of the creek. Walking south along the beltline will take you to Tanyard Creek Urban Forest and Ardmore Park.", 
+  "parking" : "There is a small parking lot off Collier Rd at the north end of the park. I’ve also seen cars parked on Overbrook Dr.",
+  "hours": "6am - 11pm",
+  "location": "https://www.google.com/maps/place/Tanyard+Creek+Park/@33.8086318,-84.4032038,17.37z",
+  "moreInfo": "",
+  "tags": [
+    "beltline",
+    "biking",
+    "playground"
+  ],
+  "images": [
+    "tanyard-creek1",
+    "tanyard-creek2"
+  ]
+}

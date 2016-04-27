@@ -352,5 +352,18 @@
             "trails",
             "water"
         ]
+    },
+    {
+        "id": "tanyard-creek", 
+        "name": "Tanyard Creek Park", 
+        "snippet": "A 14 acre park in Collier Hills that sits on the North Beltline trail. ",
+        "lat":"33.8086318",
+        "long":"-84.4032038",
+        "distance":"",
+        "tags": [
+            "playground",
+            "beltline",
+            "biking"
+        ]
     }
 ]
