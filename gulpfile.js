@@ -4,6 +4,15 @@ var usemin = require('gulp-usemin');
 var minifyCss = require('gulp-minify-css');
 var clean = require('gulp-clean');
 var replace = require('gulp-replace');
+var sass = require('gulp-sass');
+var autoprefixer = require('gulp-autoprefixer');
+
+gulp.task('sass', function() {
+    gulp.src('src/css/scss/app.scss')
+      .pipe(sass({style: 'expanded'}))
+      .pipe(autoprefixer('last 2 version'))
+      .pipe(gulp.dest('src/css/'));
+});
 
 gulp.task('deploy', function() {
   //gulp.src('dist', {read: false}).pipe(clean());

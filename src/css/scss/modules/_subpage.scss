@@ -1,0 +1,25 @@
+.subpage {
+  font-family: $lekton;
+  padding: 40px 0;
+  &--about {
+    text-align: center;
+  }
+  &--terms {
+    h1 {
+      font-size: 18px;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+    h2 {
+      text-transform: uppercase;
+      font-size: 14px;
+      font-weight: bold;
+
+    }
+    p {
+      font-size: 12px;
+      margin-bottom: 10px;
+    }
+  }
+}

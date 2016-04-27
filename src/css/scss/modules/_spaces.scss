@@ -1,0 +1,89 @@
+.spaces {
+  padding: 20px 0;
+  .space {
+    padding-bottom: 20px;
+    margin-bottom:20px;
+    border-bottom: 1px $black solid;
+    padding-left: 30px;
+    position: relative;
+
+    &:before {
+      content: '';
+      display: block;
+      width: 8px;
+      height: 8px;
+      border-radius:50%;
+      background-color:$green;
+      left: 10px;
+      position: absolute;
+      top: 8px;
+    }
+    &:last-child {
+      margin-bottom: 0px;
+    }
+    .name {
+      font-family: $lekton;
+      font-size: 14px;
+      text-transform: uppercase;
+      color:$black;
+      display: inline-block;
+      border-bottom: 1px $black solid;
+      padding-bottom: 2px;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    .distance {
+      position: absolute;
+      top: 5px;
+      right: 0px;
+      font-family: $georgia;
+      font-style: italic;
+      font-size: 12px;
+    }
+    p {
+      font-family: $georgia;
+      font-size: 12px;
+      margin-bottom: 10px;
+    }
+  }
+  .no-spaces {
+    text-align:center;
+    margin: 40px 0;
+    h2 {
+      font-family: $lekton;
+      margin:20px 0;
+      font-size: 18px;
+    }
+    p {
+      font-family: $georgia;
+      font-style:italic;
+    }
+  }
+}
+
+/* ==========================================================================
+  Media Queries
+  ========================================================================== */
+
+@media screen and (min-width: $screen-sm-min) {
+}
+@media screen and (min-width: $screen-md-min) {
+  .seperator {
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color: #333;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    &--left {
+      right:auto;
+      left:-1px;
+
+    }
+  }
+
+}
+@media screen and (min-width: $screen-lg-min) {
+}
+

@@ -1,0 +1,119 @@
+/*
+ * Form
+ */
+
+
+/* ==========================================================================
+  Mobile First
+  ========================================================================== */
+
+.form {
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  textarea {
+    border: 1px solid #ddd;
+    color: #333;
+    display: block;
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 5px;
+
+    width: 100%;
+    border:1px $black solid;
+
+    padding: 8px 5px 5px;
+    font-size: 16px;
+    font-family: $lekton;
+    &:focus{
+      outline: 0px;
+    }
+  }
+  textarea {
+    resize: vertical;
+  }
+  input[type="file"] {
+    color: #333;
+    display: block;
+    padding-top: 5px;
+    width: 100%;
+  }
+  input[type="submit"] {
+    background-color: #aaa;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: background-color 0.2s ease-in-out;
+    width: 100%;
+
+    &:hover {
+      background-color: lighten(#aaa, 10);
+    }
+  }
+  select {
+    display: block;
+    margin-bottom: 5px;
+    width: 100%;
+  }
+  &__heading {
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+  &__group {
+    margin-bottom: 20px;
+  }
+  &__group-heading {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  &__item {
+    margin-bottom: 15px;
+  }
+  &__field {
+    margin-bottom: 5px;
+  }
+  &__label {
+    font-weight: 500;
+  }
+  &__checkbox {
+    display: block;
+  }
+  label.error {
+    color: red;
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+
+/* ==========================================================================
+  Media Queries
+  ========================================================================== */
+
+@media screen and (min-width: $screen-sm-min) {
+  .form {
+    &__checkbox {
+      display: inline;
+      margin-right: 20px;
+    }
+  }
+}
+@media screen and (min-width: $screen-md-min) {
+  .form {
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    textarea {
+      padding: 5px 5px 2px;
+      font-size: 14px;
+    }
+  }
+}
+@media screen and (min-width: $screen-lg-min) {
+}

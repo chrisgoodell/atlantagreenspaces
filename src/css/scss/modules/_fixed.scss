@@ -1,0 +1,138 @@
+.fixed {
+  position: fixed;
+  bottom:0px;
+
+  width: 100%;
+
+  font-family: $lekton;
+  font-size: 12px;
+
+  .status {
+    padding: 5px 0;
+    background: #FFF;
+    position: relative;
+    border-top:1px $black solid;
+  }
+  .order-trigger {
+    position: absolute;
+    right: 0px;
+    top: 1px;
+    height: 42px;
+    width: 42px;
+    background:#FFF;
+    display: block;
+    text-align: center;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    line-height: 42px;
+    font-size: 16px;
+
+    outline: 1px $black solid;
+    ul{
+      li {
+        display: none;
+        &.active {
+          display: block;
+        }
+        &.geo {
+          @include at2x('../images/icon-geo','.png',100%,100%);
+          width: 42px;
+          height:42px;
+          background-size:100%;
+        }
+      }
+    }
+    &:hover {
+      cursor:pointer;
+    }
+  }
+  .mobile-tags-wrapper {
+
+    border-top:1px $black solid;
+    background: #FFF;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 2px;
+    width: calc(100% - 42px);
+    &.closed {
+      text-align: center;
+      .trigger{
+        padding: 10px;
+        display: block;
+      }
+      .mobile-tags {
+        display: none;
+      }
+    }
+    &.open {
+      text-align: left;
+      .trigger {
+        float:left;
+        padding: 10px;
+        display: block;
+        border-right: 1px $black solid;
+      }
+      .mobile-tags {
+        float:left;
+        display: block;
+        width: calc(100% - 85px);
+        overflow-x: scroll;
+        white-space: nowrap;
+        li {
+          display: inline-block;
+          a {
+            color:$black;
+            font-weight: normal;
+            padding:12px 10px 11px;
+            display: block;
+            font-size: 12px;
+            &.active {
+              background:#E6E6E6;
+            }
+          }
+
+        }
+      }
+    }
+  }
+}
+
+/* ==========================================================================
+  Media Queries
+  ========================================================================== */
+
+@media screen and (min-width: $screen-sm-min) {
+
+}
+@media screen and (min-width: $screen-md-min) {
+  .fixed {
+    .order-trigger {
+      right: -2px;
+      top: -5px;
+      height: 30px;
+      width: 30px;
+      line-height: 30px;
+
+      outline: 1px $black solid;
+      ul{
+        li {
+          display: none;
+          &.active {
+            display: block;
+          }
+          &.geo {
+            @include at2x('../images/icon-geo','.png',100%,100%);
+            width: 30px;
+            height:30px;
+          }
+        }
+      }
+      &:hover {
+        cursor:pointer;
+      }
+    }
+  }
+}
+@media screen and (min-width: $screen-lg-min) {
+}
+

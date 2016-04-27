@@ -1,0 +1,43 @@
+footer {
+  text-align: center;
+  font-family: $lekton;
+  text-transform: uppercase;
+  font-size:10px;
+  font-weight:bold;
+  margin-bottom: 60px;
+  p {
+    margin-bottom: 5px;
+  }
+  ul{
+    display: inline-block;
+
+    li {
+      float:left;
+      margin-right:20px;
+      a {
+        color: $black;
+
+      }
+      &:last-child {
+        margin-right:0px;
+      }
+    }
+  }
+}
+
+/* ==========================================================================
+  Media Queries
+  ========================================================================== */
+
+@media screen and (min-width: $screen-sm-min) {
+  footer {
+    margin-bottom: 90px;
+  }
+}
+@media screen and (min-width: $screen-md-min) {
+  footer {
+    margin-bottom: 0px;
+  }
+}
+@media screen and (min-width: $screen-lg-min) {
+}

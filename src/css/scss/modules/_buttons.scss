@@ -1,0 +1,47 @@
+.buttons {
+  .button {
+    width:100%;
+    background: $grey;
+    border: 2px $black solid;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: $lekton;
+    color:$black;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-weight:bold;
+    letter-spacing: 1px;
+    font-size: 16px;
+    &:last-child {
+      margin-bottom: 0px;
+    }
+  }
+}
+
+
+/* ==========================================================================
+  Media Queries
+  ========================================================================== */
+
+@media screen and (min-width: $screen-sm-min) {
+  .buttons {
+    .button {
+      width:200px;
+      font-size: 14px;
+      margin-right:10px;
+      margin-bottom: 0px;
+      &:last-child {
+        margin-right: 0px;
+      }
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+}
+@media screen and (min-width: $screen-md-min) {
+}
+@media screen and (min-width: $screen-lg-min) {
+}

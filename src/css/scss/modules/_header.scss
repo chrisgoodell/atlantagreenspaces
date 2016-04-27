@@ -1,0 +1,55 @@
+header {
+  border-bottom: 2px $black solid;
+  font-family: $lekton;
+  font-size: 16px;
+  text-transform:uppercase;
+  padding: 10px 0;
+  position:relative;
+  height:52px;
+  .logo {
+    display: block;
+    width:30px;
+    height:30px;
+    @include at2x('../images/logo','.jpg',100%,100%);
+    margin:0 auto;
+    position:absolute;
+    left: calc(50% - 30px);
+    &.center {
+      left: calc(50% - 30px);
+    }
+    &:hover {
+      cursor:pointer;
+    }
+  }
+  .atlanta, .greenspaces {
+    position: absolute;
+    top: 5px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    &.hide {
+      display: none;
+    }
+  }
+  .atlanta {
+    left: calc(50% - 112px);
+  }
+  .greenspaces {
+    left: calc(50% + 19px);
+  }
+  input {
+    margin-left: 35px;
+    border:1px $black solid;
+    height: 30px;
+    padding: 8px 5px 5px;
+    font-size: 16px;
+    font-family: $lekton;
+    display: none;
+    width:1px;
+    &:focus{
+      outline: 0px;
+    }
+    &.full {
+      width: calc(100% - 35px);
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.sidebar {
+  padding: 20px 0;
+  h3 {
+    font-family: $lekton;
+    font-size: 14px;
+    text-transform:uppercase;
+    border-bottom: 1px $black solid;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  .search, .filters, .events {
+    margin-bottom: 20px;
+  }
+  .events {
+    margin-top:10px;
+  }
+}

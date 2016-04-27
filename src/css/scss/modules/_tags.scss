@@ -1,0 +1,21 @@
+.tags {
+  li{
+    float: left;
+    margin-right:10px;
+    font-family: $georgia;
+    font-style: italic;
+    color:$black;
+    a {
+      font-family: $georgia;
+      font-style: italic;
+      color:$black;
+      &.active {
+        font-weight: bold;
+      }
+      &:hover {
+        color:$green;
+        cursor:pointer;
+      }
+    }
+  }
+}

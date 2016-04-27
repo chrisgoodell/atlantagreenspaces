@@ -1,0 +1,40 @@
+.gallery {
+  margin:20px 0 0 0;
+  text-align: center;
+  ul {
+    display: inline-block;
+
+    li {
+      float:left;
+      margin-right:10px;
+      &:last-child {
+        margin-right: 0px;
+      }
+    }
+  }
+  img {
+    width: 90px;
+  }
+
+}
+
+/* ==========================================================================
+  Media Queries
+  ========================================================================== */
+
+@media screen and (min-width: $screen-sm-min) {
+  .gallery {
+    img {
+      width: 100px;
+    }
+  }
+}
+@media screen and (min-width: $screen-md-min) {
+  .gallery {
+    img {
+      width: 150px;
+    }
+  }
+}
+@media screen and (min-width: $screen-lg-min) {
+}
