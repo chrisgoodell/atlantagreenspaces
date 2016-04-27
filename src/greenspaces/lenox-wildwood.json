@@ -1,0 +1,15 @@
+{
+  "name": "Lenox-Wildwood", 
+  "description": "Lenox-Wildwood Park is a narrow 9 acre park in the Morningside neighborhood. Sitting just south of Morningside Nature Preserve, Lenox-Wildwood has 2 tennis courts, a picnic table and a couple benches.", 
+  "parking" : "There is a small parking lot at the north end of the park along Lenox Rd.",
+  "hours": "6am - 11pm",
+  "location": "https://www.google.com/maps/place/Lenox-Wildwood+Park/@33.8005875,-84.3547836,16.32z",
+  "moreInfo": "",
+  "tags": [
+    "tennis"
+  ],
+  "images":[
+    "lenox-wildwood1",
+    "lenox-wildwood2"
+  ]
+}

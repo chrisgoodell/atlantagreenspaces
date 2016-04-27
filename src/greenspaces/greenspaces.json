@@ -329,5 +329,16 @@
         "tags": [
             "trails"
         ]
+    },
+    {
+        "id": "lenox-wildwood", 
+        "name": "Lenox-Wildwood Park", 
+        "snippet": "A narrow park in Morningside that includes 2 tennis courts alongside a small creek.",
+        "lat":"33.8005875",
+        "long":"-84.3547836",
+        "distance":"",
+        "tags": [
+            "tennis"
+        ]
     }
 ]
